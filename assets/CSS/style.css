@@ -3,15 +3,30 @@
     src: url("/assets/fonts/Montserrat-Medium.ttf") format("ttf");
   }
 body{
-    font-family: montserrat;
+    font-family: Montserrat;
     font-weight: 600;
 }
 @font-face {
     font-family: "Bevan";
-    src: url("/assets/fonts/Bevan-Regular.ttf") format("ttf"),
+    src: url("/assets/fonts/Bevan-Regular.ttf") format("ttf");
         
   }
-
+@font-face{
+    font-family: Montserrat;
+    src: url("/assets/fonts/Montserrat-Black.ttf") format("ttf");
+}
+@font-face{
+    font-family: Montserrat;
+    src: url("/assets/fonts/Montserrat-Bold.ttf") format("ttf");
+}
+@font-face{
+    font-family: Montserrat;
+    src: url("/assets/fonts/Montserrat-SemiBold.ttf") format("ttf");
+}
+@font-face{
+    font-family: Montserrat;
+    src: url("/assets/fonts/Montserrat-Regular.ttf") format("ttf");
+}
   h1{
       font-size: 40px; 
       font-family: "Montserrat";
